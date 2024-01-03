@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0ade8abb;
+}
+
+.principal {
+    width: 400px;
+    height: 550px;
+    background: #fff;
+    margin: 160px auto;
+    border-radius: 25px;
+}
+
+h1 {
+   font-size: 49px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 87px;
+    text-align: center;
+    margin-top: 84px;
+    color: white; text-shadow: rgb(251, 5, 5) 0.0em 0.0em 0.3em
+}
+
+
+button {
+ margin-top: 162px;
+}
+
+.button-start {
+    width: 122px;
+    height: 33px;
+    background: #00FF00;
+    border-radius: 15px;
+    font-size: 26px;
+    text-align: center;
+    color: #ffff;
+    border: none;
+    box-shadow: 0px 3px 2px black;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.button-stop {
+    width: 122px;
+    height: 33px;
+    background: #ff0000;
+    border-radius: 15px;
+    font-size: 26px;
+    text-align: center;
+    color: #ffff;
+    border: none;
+    box-shadow: 0px 3px 2px black;
+    margin-left: 50px;
+    cursor: pointer;
+}    
+
+button:houver {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.4;
+
+}
+
